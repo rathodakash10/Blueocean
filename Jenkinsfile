@@ -9,7 +9,7 @@ pipeline {
 
     stage('Fetch code') {
       steps {
-        git(url: 'git@github.com:rathodakash10/Blueocean.git', branch: 'Devops')
+        git(url: 'git@github.com:rathodakash10/Blueocean.git', branch: '/Devops')
       }
     }
 
